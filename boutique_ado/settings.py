@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-jjanczynska-boutiqueado-x4fe4z0e6vz.ws-eu105.gitpod.io']
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
 
 # Application definition
 
@@ -42,6 +45,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products'
 ]
 
 MIDDLEWARE = [
@@ -149,4 +153,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
-NEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
