@@ -25,7 +25,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-jjanczynska-boutiqueado-x4fe4z0e6vz.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['8000-jjanczynska-boutiqueado-x4fe4z0e6vz.ws-eu105.gitpod.io', '8000-jjanczynska-boutiqueado-x4fe4z0e6vz.ws-eu106.gitpod.io']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
